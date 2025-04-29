@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exemplo de Navbar Interna</title>
+<style>
+/* Estilos CSS da navbar */
+.navbar {
+  display: flex; /* Para disposição horizontal */
+  background-color: #333; /* Cor de fundo */
+  padding: 10px; /* Espaçamento interno */
+}
+.navbar ul {
+  list-style: none; /* Remove os marcadores de lista */
+  margin: 0; /* Remove a margem padrão */
+  padding: 0; /* Remove o preenchimento padrão */
+}
+.navbar li {
+  margin-right: 20px; /* Espaçamento entre os links */
+}
+.navbar a {
+  text-decoration: none; /* Remove a sublinhado padrão */
+  color: white; /* Cor do texto */
+}
+/* Estilos para quando o usuário passa o mouse sobre o link */
+.navbar a:hover {
+  color: yellow; /* Muda a cor do texto */
+}
+/* Estilos para quando o usuário clica no link */
+.navbar a:active {
+  color: red; /* Muda a cor do texto */
+}
+/* Estilos para as seções da página */
+#section1 {
+  padding: 50px;
+  border: 1px solid black;
+  margin-top: 100px; /* Para criar espaço entre a navbar e a primeira seção */
+}
+/* Repita os estilos para as outras seções */
+#section2 {
+  padding: 50px;
+  border: 1px solid black;
+}
+#section3 {
+  padding: 50px;
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#section1">Seção 1</a></li>
+      <li><a href="#section2">Seção 2</a></li>
+      <li><a href="#section3">Seção 3</a></li>
+    </ul>
+  </nav>
+
+  <div id="section1">
+    <h2>Seção 1</h2>
+    <p>Conteúdo da seção 1.</p>
+  </div>
+
+  <div id="section2">
+    <h2>Seção 2</h2>
+    <p>Conteúdo da seção 2.</p>
+  </div>
+
+  <div id="section3">
+    <h2>Seção 3</h2>
+    <p>Conteúdo da seção 3.</p>
+  </div>
+</body>
+</html>
